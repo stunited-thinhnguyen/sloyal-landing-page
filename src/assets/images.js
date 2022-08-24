@@ -9,17 +9,30 @@ import distortion from './images/distortion.png'
 
 import cardAshe from './images/ashe_card.png'
 import cardAhri from './images/ahri_card.png'
-import cardGaren from './images/garen_card.png'
 import cardFortune from './images/fortune_card.png'
 import cardLux from './images/lux_card.png'
 import cardAkali from './images/akali_card.png'
+import cardNgoc from './images/ngoc_card.png'
+import cardThinh from './images/thinh_card.png'
+import cardThong from './images/thong_card.png'
+import cardQuoc from './images/quoc_card.png'
+import cardThanh from './images/thanh_card.png'
+import cardQuang from './images/quang_card.png'
 
 import bgLux from './images/lux-bg.jpg'
+import bgToan from './images/toan-bg.png'
+import bgNgoc from './images/ngoc-bg.jpg'
 import bgGaren from './images/garen-bg.jpg'
 import bgAhri from './images/ahri-bg.jpg'
 import bgAshe from './images/ashe-bg.jpg'
 import bgFortune from './images/fortune-bg.jpg'
 import bgAkali from './images/akali-bg.jpg'
+import bgThong from './images/thong-bg.jpg'
+import bgThin from './images/thin-bg.jpg'
+import bgCuong from './images/cuong-bg.jpg'
+import bgThanh from './images/thanh-bg.jpg'
+import bgQuoc from './images/quoc-bg.jpg'
+import bgQuang from './images/quang-bg.jpg'
 
 import bgLargeAshe from './images/ashe-bg-large.jpg'
 import bgLargeAhri from './images/ahri-bg-large.jpg'
@@ -43,7 +56,6 @@ export {
     distortion,
     cardAshe,
     cardAhri,
-    cardGaren,
     cardLux,
     cardFortune,
     cardAkali,
@@ -60,5 +72,19 @@ export {
     bgLargeLux,
     bgLargeGaren,
     bgLargeAkali,
-    trailerImg
+    trailerImg,
+    bgToan,
+    bgNgoc,
+    cardNgoc,
+    cardThinh,
+    bgThong,
+    bgThin,
+    bgCuong,
+    bgThanh,
+    cardThong,
+    bgQuoc,
+    cardQuang,
+    cardQuoc,
+    cardThanh,
+    bgQuang
 }

@@ -1,12 +1,14 @@
 import {
     cardAhri,
     cardAshe,
-    cardGaren,
     cardFortune,
     cardAkali,
     cardLux,
+    cardNgoc,
+    cardThinh,
     bgGaren,
     bgLux,
+    bgNgoc,
     bgFortune,
     bgAshe,
     bgAhri,
@@ -16,7 +18,18 @@ import {
     bgLargeFortune,
     bgLargeLux,
     bgLargeGaren,
-    bgLargeAkali
+    bgLargeAkali,
+    bgToan,
+    bgThanh,
+    bgCuong,
+    bgThin,
+    bgThong,
+    cardThong,
+    bgQuoc,
+    cardQuang,
+    cardQuoc,
+    cardThanh,
+    bgQuang
 } from './images'
 
 export const championsData = [
@@ -54,7 +67,7 @@ export const championsData = [
         bgLarge: bgLargeAshe
     },
     {
-        img: cardGaren,
+        img: cardThinh,
         name: 'Tien Thinh',
         bg: bgGaren,
         nickName: 'WEREWOLF',
@@ -74,6 +87,94 @@ export const championsData = [
         description: `Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.`,
         video: 'khEBkz6A0oQ',
         bgLarge: bgLargeLux
+    },
+    {
+        img: cardAhri,
+        name: 'Minh Toan',
+        bg: bgToan,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardNgoc,
+        name: 'Bich Ngoc',
+        bg: bgNgoc,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardThong,
+        name: 'Dau Thong',
+        bg: bgThong,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardAhri,
+        name: 'Van Thin',
+        bg: bgThin,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardQuoc,
+        name: 'Vu Quoc',
+        bg: bgQuoc,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardAhri,
+        name: 'Viet Cuong',
+        bg: bgCuong,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardThanh,
+        name: 'Sy Thanh',
+        bg: bgThanh,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
+    },
+    {
+        img: cardQuang,
+        name: 'Minh Quang',
+        bg: bgQuang,
+        nickName: 'THE NINE-TAILED FOX',
+        role: 'LEADER',
+        difficulty: 'MODERATE',
+        description: 'Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.',
+        video: '0z7kfuJwGvs',
+        bgLarge: bgLargeAhri
     },
     {
         img: cardAhri,
